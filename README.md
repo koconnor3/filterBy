@@ -1,23 +1,15 @@
 # Red Labels for Pivotal Tracker
 
 This Chrome extension for Pivotal Tracker makes it very easy to see which of
-your stories are blocked for development.
+your stories are assigned to yourself in all panels (rather than the all encompassing and unsort-able 'My Work' panel)
 
 ## Taxonomy
 
-Any of these labels on stories will turn red:
-
-- blocked
-- needs <x>
-
-My teams often use `needs assets` or `needs design` to signal our product
-designer or `needs detail` to alert our product manager that their attention is
-required.
+Any story preview elements where 'owner.title'!={{your name}} will be hidden
 
 ## Future Work
 
-I know that everyone has their own preferred taxonomy. I don't have any plans to add an ugly Chrome extension customization form.
-
-## License
-
-ISC License (included in the `LICENSE` file).
+- ability to set the name being filtered (instead of my own name hard-coded)
+- clicking icon toggles filter
+- keyboard shortcut to toggle filter
+- create my own icon set so I'm not stealing the 'Red Labels for Pivotal Tracker' icon
