@@ -1,0 +1,32 @@
+{
+  "name": "FilterBy for Pivotal Tracker",
+  "version": "0.5",
+  "manifest_version": 1,
+  "author": "Kevin O'Connor",
+  "description": "Want to see only stories that are assigned to you?",
+  "homepage_url": "https://www.idimension.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "http://www.pivotaltracker.com/*",
+    "https://www.pivotaltracker.com/*"
+  ],
+  "short_name": "FilterBy",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.pivotaltracker.com/*",
+        "https://www.pivotaltracker.com/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ],
+      "css": [
+      ]
+    }
+  ]
+}
