@@ -1,7 +1,7 @@
 {
   "name": "FilterBy for Pivotal Tracker",
   "version": "0.5",
-  "manifest_version": 1,
+  "manifest_version": 2,
   "author": "Kevin O'Connor",
   "description": "Want to see only stories that are assigned to you?",
   "homepage_url": "https://github.com/koconnor3/filterBy",
