@@ -1,4 +1,4 @@
-# Red Labels for Pivotal Tracker
+# FilterBy for Pivotal Tracker
 
 This Chrome extension for Pivotal Tracker makes it very easy to see which of
 your stories are assigned to yourself in all panels (rather than the all encompassing and unsort-able 'My Work' panel)
