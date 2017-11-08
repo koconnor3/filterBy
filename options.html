@@ -1,0 +1,38 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+        white-space: nowrap;
+      }
+
+      h1 {
+        font-size: 15px;
+      }
+
+      #container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>FilterBy for Pivotal Tracker</h1>
+    <div id="container">
+      <span>Enter Your User Initials</span>
+      <input type="text" name="Initials" id="initials">
+    </div>
+    <div id="status"></div>
+    <button id="save">Save</button>
+    <script src="options.js"></script>
+  </body>
+</html>
