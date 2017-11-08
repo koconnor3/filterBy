@@ -9,7 +9,7 @@ chrome.storage.sync.get({
   });
 
 function hideStories(initials) {
-  var storyElements = document.querySelectorAll(".preview");
+  var storyElements = document.querySelectorAll("[data-aid=StoryPreviewItem__preview]");
       storyElements.forEach(function(story){
         var storyOwnerElements = story.querySelectorAll(".owner");
           var ownersToDisplay = [];
